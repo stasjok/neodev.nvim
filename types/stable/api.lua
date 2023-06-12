@@ -16,7 +16,10 @@ vim.api = {}
 -- 
 -- Return: ~
 --     list of absolute paths to the found files
---- @param opts? table<string, any>
+--- @param pat string[]
+--- @param all boolean?
+--- @param opts table<string, any>
+--- @return string[]
 function vim.api.nvim__get_runtime(pat, all, opts) end
 
 -- Returns object given as argument.
